@@ -12,6 +12,11 @@
 		E92564002BC140EE00DC4411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92563FF2BC140EE00DC4411 /* Assets.xcassets */; };
 		E92564032BC140EE00DC4411 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92564022BC140EE00DC4411 /* Preview Assets.xcassets */; };
 		E925640A2BC181A400DC4411 /* ProfilePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92564092BC181A400DC4411 /* ProfilePhoto.swift */; };
+		E925640C2BC1856A00DC4411 /* NavigationFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925640B2BC1856A00DC4411 /* NavigationFirstView.swift */; };
+		E925640E2BC1857D00DC4411 /* NavigationSeconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925640D2BC1857D00DC4411 /* NavigationSeconView.swift */; };
+		E92564112BC1901000DC4411 /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92564102BC1901000DC4411 /* ListExample.swift */; };
+		E92564142BC1946A00DC4411 /* Musician.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92564132BC1946A00DC4411 /* Musician.swift */; };
+		E92564162BC1972000DC4411 /* ListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92564152BC1972000DC4411 /* ListSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		E92563FF2BC140EE00DC4411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92564022BC140EE00DC4411 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E92564092BC181A400DC4411 /* ProfilePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhoto.swift; sourceTree = "<group>"; };
+		E925640B2BC1856A00DC4411 /* NavigationFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFirstView.swift; sourceTree = "<group>"; };
+		E925640D2BC1857D00DC4411 /* NavigationSeconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSeconView.swift; sourceTree = "<group>"; };
+		E92564102BC1901000DC4411 /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
+		E92564132BC1946A00DC4411 /* Musician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musician.swift; sourceTree = "<group>"; };
+		E92564152BC1972000DC4411 /* ListSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,13 @@
 		E92563FA2BC140ED00DC4411 /* ViewDetailed */ = {
 			isa = PBXGroup;
 			children = (
+				E92564122BC1944E00DC4411 /* Model */,
+				E925640F2BC1858200DC4411 /* Navigation */,
 				E92563FB2BC140ED00DC4411 /* ViewDetailedApp.swift */,
 				E92563FD2BC140ED00DC4411 /* ContentView.swift */,
 				E92564092BC181A400DC4411 /* ProfilePhoto.swift */,
+				E92564102BC1901000DC4411 /* ListExample.swift */,
+				E92564152BC1972000DC4411 /* ListSectionView.swift */,
 				E92563FF2BC140EE00DC4411 /* Assets.xcassets */,
 				E92564012BC140EE00DC4411 /* Preview Content */,
 			);
@@ -68,6 +82,23 @@
 				E92564022BC140EE00DC4411 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E925640F2BC1858200DC4411 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E925640D2BC1857D00DC4411 /* NavigationSeconView.swift */,
+				E925640B2BC1856A00DC4411 /* NavigationFirstView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E92564122BC1944E00DC4411 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E92564132BC1946A00DC4411 /* Musician.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +174,11 @@
 				E92563FE2BC140ED00DC4411 /* ContentView.swift in Sources */,
 				E92563FC2BC140ED00DC4411 /* ViewDetailedApp.swift in Sources */,
 				E925640A2BC181A400DC4411 /* ProfilePhoto.swift in Sources */,
+				E925640E2BC1857D00DC4411 /* NavigationSeconView.swift in Sources */,
+				E92564162BC1972000DC4411 /* ListSectionView.swift in Sources */,
+				E92564142BC1946A00DC4411 /* Musician.swift in Sources */,
+				E92564112BC1901000DC4411 /* ListExample.swift in Sources */,
+				E925640C2BC1856A00DC4411 /* NavigationFirstView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

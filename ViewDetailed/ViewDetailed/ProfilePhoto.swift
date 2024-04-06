@@ -16,7 +16,7 @@ struct ProfilePhoto: View {
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: UIScreen.main.bounds.width * 0.25 , height:UIScreen.main.bounds.height * 0.25 , alignment:.center)
+                .frame(width: UIScreen.main.bounds.width * 0.20 , height:UIScreen.main.bounds.height * 0.15 , alignment:.center)
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color.gray,lineWidth : 5))
                 .shadow(radius: 10)
